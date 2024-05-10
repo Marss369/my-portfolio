@@ -1,0 +1,655 @@
+@media (max-width: 575px) {
+
+    #my-content {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        display: block !important;
+    }
+
+    #side-intro {
+        width: 90%;
+        margin: auto;
+        position: static;
+        transform: none;
+        margin-top: 30px;
+        padding: 30px;
+
+        #name-logo {
+
+            h3 {
+                font-size: 27px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+
+        #profile-img {
+            padding: 20px 0px;
+        }
+
+        #side-info {
+            h5 {
+                font-size: 14px;
+            }
+        }
+
+        .copy {
+            font-size: 13px;
+        }
+
+        #side-social {
+            max-width: 200px;
+            width: 100%;
+            padding: 10px 0px;
+            margin: auto;
+
+            #side-social-box {
+                width: 40px;
+                height: 40px;
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    #side-navbar {
+        display: none !important;
+    }
+
+    #nav-toggle-btn {
+        display: block;
+        right: 35px;
+    }
+
+    #mobile-nav ul {
+        padding: 30px;
+        /* gap: 15px; */
+
+        p {
+            font-size: 22px;
+        }
+
+        li {
+            a {
+                font-size: 17px;
+                font-weight: 500;
+                gap: 10px;
+            }
+
+            i {
+                font-size: 22px;
+            }
+        }
+    }
+
+    #mobile-menu-social {
+
+        padding: 0px 30px !important;
+
+        p {
+            font-size: 22px;
+        }
+
+        #mobile-menu-social-i {
+            i {
+                font-size: 22px !important;
+            }
+        }
+    }
+
+    #main {
+        margin: auto;
+        padding: 0px;
+        /* width: 100%; */
+        height: auto;
+    }
+
+    .main-subtitle {
+        margin-bottom: 35px;
+    }
+
+    .section-heading {
+        h5 {
+            width: auto;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+    }
+
+    #home {
+        padding: 60px 0px;
+
+        #home-heading {
+
+            height: 200px;
+            padding-bottom: 25px;
+
+            h1 {
+                font-size: 45px;
+            }
+
+            h5 {
+                font-size: 27px;
+            }
+        }
+
+        p {
+            width: auto;
+        }
+
+        .h-btn {
+            flex-direction: column;
+            align-items: start !important;
+            gap: 20px;
+
+            .h-to-c-btn {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    #about {
+        padding: 30px 0px;
+
+        p {
+            width: auto;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+
+    #resume {
+        padding: 30px 0px;
+
+        .resume-area {
+            .resume-box {
+                p {
+                    width: auto;
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        #resume-pills .my-nav-link {
+            margin-bottom: 20px;
+        }
+
+        #my-education,
+        #my-experience {
+            padding: 0px 5px;
+        }
+
+        .resume-area {
+            margin-top: 20px;
+            padding: 0px 0px 0px 20px;
+
+            .resume-box h3 {
+                font-size: 21px;
+                color: #fff;
+                font-weight: 300;
+            }
+
+            .resume-box::before {
+                left: -28px;
+            }
+        }
+    }
+
+    #services {
+        padding: 30px 0px;
+
+        .service-box {
+            padding: 22px;
+
+            h3 {
+                font-size: 17px;
+
+                i {
+                    font-size: 25px;
+                }
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    #skill {
+        padding: 30px 0px;
+
+        #my-skills-info {
+            width: 100%;
+            height: auto;
+            margin: 35px 0px;
+            gap: 35px;
+        }
+    }
+
+
+    #portfolio {
+        padding: 30px 0px;
+
+        #featured-projects {
+            .project-box {
+                .project-title {
+                    font-size: 15px;
+                    line-height: 23px;
+                    padding: 0px 10px;
+                }
+
+                .project-tech {
+                    padding: 15px 10px 5px;
+                    gap: 10px;
+                }
+            }
+
+
+        }
+    }
+
+    #contact {
+        padding: 30px 0px;
+
+        .contact-info {
+            h5 {
+                font-size: 15px;
+            }
+        }
+
+        .contact-social {
+            h5 {
+                font-size: 14px;
+            }
+        }
+    }
+
+    #to-top {
+        right: 35px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    #my-content {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        display: block !important;
+    }
+
+    #side-intro {
+        width: 520px;
+        margin: auto;
+        position: static;
+        transform: none;
+        margin-top: 30px;
+        padding: 50px;
+
+        #name-logo {
+
+            h3 {
+                font-size: 27px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+
+        #profile-img {
+            padding: 50px;
+        }
+
+        #side-info {
+            h5 {
+                font-size: 25px;
+            }
+        }
+
+        .copy {
+            font-size: 16px;
+        }
+
+        #side-social {
+            width: 280px;
+            margin: auto;
+            padding: 15px 30px;
+        }
+    }
+
+    #side-navbar {
+        display: none !important;
+    }
+
+    #nav-toggle-btn {
+        display: block;
+    }
+
+    #main {
+        margin: auto;
+        padding: 0px;
+        /* width: 100%; */
+        height: auto;
+    }
+
+    .section-heading {
+        h5 {
+            width: 500px;
+            font-size: 38px;
+        }
+    }
+
+    #home {
+        padding: 60px 0px;
+
+        #home-heading {
+
+            height: 200px;
+            padding-bottom: 25px;
+
+            h1 {
+                font-size: 50px;
+            }
+
+            h5 {
+                font-size: 42px;
+            }
+        }
+
+
+    }
+
+    #about {
+        p {
+            width: auto;
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+
+    #resume {
+        .resume-area {
+            .resume-box {
+                p {
+                    width: auto;
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    #services {
+        .service-box {
+            padding: 30px;
+
+            h3 {
+                font-size: 20px;
+
+                i {
+                    font-size: 25px;
+                }
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+
+    #portfolio {
+        #featured-projects {
+            .project-box {
+                .project-tech {
+                    padding: 15px 0px 5px 10px;
+                }
+
+                .project-title {
+                    font-size: 14px;
+                    line-height: 23px;
+                    padding: 0px 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #my-content {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        display: block !important;
+    }
+
+    #side-intro {
+        width: 700px;
+        margin: auto;
+        position: static;
+        transform: none;
+        margin-top: 30px;
+        padding: 50px;
+
+        #name-logo {
+
+            h3 {
+                font-size: 35px;
+            }
+
+            p {
+                font-size: 25px;
+            }
+        }
+
+        #profile-img {
+            padding: 50px;
+        }
+
+        #side-info {
+            h5 {
+                font-size: 25px;
+            }
+        }
+
+        .copy {
+            font-size: 16px;
+        }
+
+        #side-social {
+            width: 350px;
+            margin: auto;
+            padding: 20px 55px;
+        }
+    }
+
+    #side-navbar {
+        display: none !important;
+    }
+
+    #nav-toggle-btn {
+        display: block;
+    }
+
+    #main {
+        margin: auto;
+        padding: 0px;
+        /* width: 100%; */
+        height: auto;
+    }
+
+    .section-heading {
+        h5 {
+            width: 650px;
+        }
+    }
+
+    #home {
+        padding: 60px 0px;
+
+        #home-heading {
+
+            height: auto;
+            padding-bottom: 25px;
+
+            h1 {
+                font-size: 60px;
+            }
+
+            h5 {
+                font-size: 44px;
+            }
+        }
+    }
+
+    #about {
+        p {
+            width: 625px;
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+
+    #resume {
+        .resume-area {
+            .resume-box {
+                p {
+                    width: 450px;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+
+    #services {
+        .service-box {
+            h3 {
+                i {
+                    font-size: 35px;
+                    color: var(--color-brand);
+                }
+            }
+
+            p {
+                margin-bottom: 30px;
+                font-size: 16px;
+                color: var(--color-p);
+            }
+        }
+    }
+
+    #skill {
+        #my-skills-info {
+            .skill-box {
+                .skill-title {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    #portfolio {
+        #featured-projects {
+            .project-box {
+                .project-title {
+                    font-size: 16px;
+                    line-height: 23px;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    #side-intro {
+        width: 300px;
+
+        #name-logo {
+
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        #side-info {
+            h5 {
+                font-size: 18px;
+            }
+        }
+
+        #side-social {
+            padding: 15px 20px;
+        }
+    }
+
+    #main {
+        margin-left: 300px;
+        margin-right: 70px;
+        padding: 45px 45px 0px;
+    }
+
+    #home {
+        #home-heading {
+            height: 280px;
+
+            h1 {
+                font-size: 64px;
+            }
+
+            h5 {
+                font-size: 41px;
+            }
+        }
+
+        p {
+            width: 425px;
+            font-size: 14px;
+        }
+
+        .h-to-p-btn {
+            width: 150px;
+            height: 150px;
+
+            img {
+                width: 83%;
+            }
+
+            i {
+                font-size: 35px;
+            }
+        }
+    }
+
+    #side-navbar {
+        right: 40px;
+    }
+
+    #to-top {
+        right: 40px;
+    }
+}
+
+/* @media (min-width: 1201px) and (max-width: 1400px) {
+    #home {
+            #home-heading {
+                height: 280px;
+            }
+        }
+} */
