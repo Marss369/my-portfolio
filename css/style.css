@@ -698,7 +698,8 @@ body {
         margin: 20px 0px;
         gap: 30px;
 
-        #protfolio-show-btn {
+        #protfolio-show-btn-1,
+        #protfolio-show-btn-2 {
             padding: 5px 15px;
             background-color: transparent;
             font-size: 14px;
@@ -709,7 +710,8 @@ body {
             gap: 5px;
         }
 
-        .protfolio-hide-sec {
+        .protfolio-hide-sec-1,
+        .protfolio-hide-sec-2 {
             display: none;
         }
 

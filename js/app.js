@@ -257,13 +257,25 @@ contactSectionObserver.observe(contactSection);
 
 // Protfolio Sec 
 
-const protShowBtn = document.getElementById("protfolio-show-btn");
+const protShowBtn = document.getElementById("protfolio-show-btn-1");
+const protShowBtn2 = document.getElementById("protfolio-show-btn-2");
 
-const portHideSec = document.querySelectorAll(".protfolio-hide-sec");
+const portHideSec = document.querySelectorAll(".protfolio-hide-sec-1");
+const portHideSec2 = document.querySelectorAll(".protfolio-hide-sec-2");
 
 protShowBtn.addEventListener("click", (e) => {
 
     portHideSec.forEach((sinSec) => {
+        sinSec.style.display = "flex";
+    })
+
+    e.target.style.display = "none";
+
+})
+
+protShowBtn2.addEventListener("click", (e) => {
+
+    portHideSec2.forEach((sinSec) => {
         sinSec.style.display = "flex";
     })
 
